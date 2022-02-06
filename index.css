@@ -1,0 +1,93 @@
+.header {
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    max-width: 1500px;
+}
+
+.Doodles_header {
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    max-width: 1500px;
+}
+
+.main-title {
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-size: 42px;
+}
+
+.menu {
+    width: 500px;
+    position: fixed; /*make the position fixed*/
+    margin: 0px auto;
+    top: 0px;
+    left: 490px;
+    _position:absolute;
+    background: lightskyblue;
+    z-index: 9999; /*make sure the navigation menu is at the highest position, even when facing the picture or flash*/
+}
+.logo {
+    width: 500px;
+    position: fixed; /*make the position fixed*/
+    margin: 0px auto;
+    top: 0px;
+    left: 0px;
+    _position:absolute;
+    z-index: 9999; /*make sure the navigation menu is at the highest position, even when facing the picture or flash*/
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    align-items: center;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    max-width: 1500px;
+}
+
+.small {
+    flex-basis: 25%;
+}
+
+.big {
+    flex-basis: 33%;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+
+
+h3 {
+    color: palevioletred;
+}
+
+h5 {
+    color: lightskyblue;
+}
+
+.colorfull-div {
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+}
